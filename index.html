@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal_Portfolio-JOY_MRIDHA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/21cf0785ee.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header id="header" >
+        <div class="container">
+            <nav>
+                <span class="logo">Joy's Portfolio</span>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello, My name Is</p>
+                <h1><span id="name-text">Joy Mridha</span> 
+                    <br><span id="animation-line">And I'm a</span> <span id="element">Developer</span>
+                </h1>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+
+    <!-- ---------about------ -->
+
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.webp" alt="developer Photo">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello, I'm Joy Mridha, a dedicated BCA (Honours) student at NSEC Kolkata with a strong passion for software development. I've immersed myself in various technologies, including Android and Flutter app development, as well as web development, constantly expanding my skillset. I thrive on collaborating with others, embracing new challenges, and exploring the ever-evolving tech landscape. My commitment to continuous learning and unwavering focus on the future drives my ambition to excel in the world of software development.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('technologies')">technologies</p>
+                            <p class="tab-links" onclick="opentab('experience')">experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Flutter</span><br>flutter cross platform Development,using Drat</li>
+                                <li><span>Android</span><br>Android native App Development,using Java, Kotlin, XML</li>
+                                <li><span>Web</span><br>Web App Development,using HTML, CSS, JavaScript</li>
+                                <li><span>Database</span><br>Database manage and create,using MySql, FireBase</li>
+                                <li><span>Porject Manage</span><br>Porject Manage,using Git & GitHub</li>
+                                <li><span>UI/UX</span><br>Designing web/App interface,using Figma</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="technologies">
+                            <ul>
+                                <li><span>Languages</span><br>Java, Kotlin, Python, C, C++, HTML, CSS, JavaScript, Dart, XML, PHP</li>
+                                <li><span>FrameWork & Tools</span><br>Android Studio, VS Code, Workbench, Flutter, Git & GitHub, Figma, AWS</li>
+                                <li><span>DataBase</span><br>MySql, FireBase</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>ARS Technologies &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2023 May - 2023 Jul</span><br>Android Developer Intern</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2024</span><br>BCA (Honours) from NSEC Kolkata</li>
+                                <li><span>2021</span><br>12th from Garfa D.N.M High School from Kolkata</li>
+                                <li><span>2019</span><br>10th from Garfa D.N.M High School from Kolkata</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------services------------ -->
+
+        <section id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Development</h2>
+                        <p>I specialize in mobile app development, crafting user-friendly and innovative solutions for both iOS and Android platforms. With a keen eye for design and a passion for coding, I create seamless and engaging mobile experiences that cater to diverse user needs. My portfolio showcases a range of successful projects, demonstrating my commitment to delivering top-notch mobile applications.</p>
+                        <a href="#portfolio">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>I specialize in web development, crafting engaging and user-friendly websites that blend creativity with functionality. With a keen eye for design and a strong grasp of coding languages, I bring digital ideas to life, ensuring a seamless online experience for users. Explore my portfolio to see how I turn concepts into captivating web realities.</p>
+                        <a href="#portfolio">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Flutter Development</h2>
+                        <p>I specialize in Flutter development, crafting cross-platform mobile apps with a seamless and engaging user experience. My expertise in Flutter's UI toolkit and expressive widgets ensures efficient and beautiful app development, bringing ideas to life on both Android and iOS platforms. I'm dedicated to creating innovative solutions that deliver exceptional user satisfaction.</p>
+                        <a href="#portfolio">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     <!-- --------------Portfolio---------- -->
+
+        <section id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png" alt="first Projet" >
+                        <div class="layer">
+                            <h3>Chatty App</h3>
+                            <p>This flutter project is help to communicate to your friend Using Firebase email login,Firebase realtime database used.</p>
+                            <a href="https://github.com/joymridha2004/Chatty_Flutter_Project" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png" alt="second Projet">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>This Java application is help to listining Music on your device.</p>
+                            <a href="https://github.com/joymridha2004/Music_Listener_Java_Application" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png" alt="third Projet">
+                        <div class="layer">
+                            <h3>ARS Tracking App</h3>
+                            <p>This Kotlin application are help to user buy product, book for sample, register complaint or warranty and many more feature</p>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer>
+        <!-- -----------contact---------- -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="Sub-title">Contact Me</h1>
+                        <a href="mailto:joymridha2004@gmail.com"><p><i class="fa-solid fa-paper-plane"></i>joymridha2004@gmail.com</p></a>
+                        <a href="tel:+916289093671"><p><i class="fa-solid fa-square-phone"></i>+91 6289093671</p></a>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/joy.mridha.712?mibextid=LQQJ4d" title="Facebook Link"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/joy-mridha" title="Linkedin Link"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/joymridha2004" title="Github Link"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://instagram.com/joy.mridha.712?igshid=OGQ5ZDc2ODk2ZA==" title="Instagram link"><i class="fa-brands fa-instagram"></i></i></a>
+                        </div>
+                        <a href="Resume/joymridharesume.pdf" download class="btn  btn2">Dowload CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Enter Your Name" required>
+                            <input type="tel" name="Ph-no" placeholder="Enter Your Phone Number" required>
+                            <input type="email" name="Email" placeholder="Enter Your Email" required>
+                            <textarea name="Message"  rows="6" placeholder="Enter Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy JoyMridha. Made with <i class="fa-solid fa-heart"></i> by Joy Mridha</p>
+            </div>
+        </div>
+
+    </footer>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwKrnA9EeB-Zh0mX_6ao5kjNl604VCv6BVD7L7IM0StDJBWLb-1pSwTQQW6YIxf8cpM/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function() {
+                msg.innerHTML=""
+            }, 5000);
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Flutter Develper','Android Developer','App Developer', 'Web Developer','UI/UX Designer','FullStack developer'],
+      typeSpeed: 70,
+    });
+  </script>
+
+</body>
+</html>
